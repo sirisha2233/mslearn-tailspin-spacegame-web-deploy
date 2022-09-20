@@ -3,6 +3,9 @@ trigger:
 
 pool:
   Name: 'MyAgentPool'
+  demands:
+  - maven
+  - npm
 
 variables:
   buildConfiguration: 'Release'
